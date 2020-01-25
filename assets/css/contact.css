@@ -1,0 +1,60 @@
+body {
+   background: #fff;
+}
+
+/*------------ Sign Up Form ------------*/
+#contact-form {
+   padding: 2em 4em;
+}
+
+#contact-form .line {
+   margin-top: 20px;
+   width: 50px;
+   height: 5px;
+   border-radius: 50px;
+   background-color: var(--main-color, blue);
+}
+
+#contact-form input::-webkit-input-placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #ccc;
+   opacity: 1;
+   /* Firefox */
+}
+
+#contact-form input:-ms-input-placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #ccc;
+   opacity: 1;
+   /* Firefox */
+}
+
+#contact-form input::-ms-input-placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #ccc;
+   opacity: 1;
+   /* Firefox */
+}
+
+#contact-form input::placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #ccc;
+   opacity: 1;
+   /* Firefox */
+}
+
+#contact-form input:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: #ccc;
+}
+
+#contact-form input::-ms-input-placeholder {
+   /* Microsoft Edge */
+   color: #ccc;
+}
+
+#contact-form form button {
+   margin: 0 auto;
+   border-radius: 50px;
+   width: 96%
+}

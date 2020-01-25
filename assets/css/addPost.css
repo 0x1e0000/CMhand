@@ -1,0 +1,33 @@
+#addPost {
+   margin-top: 90px;
+}
+
+#addPost>form.row {
+   overflow: hidden;
+   border: 5px solid #fff;
+   -webkit-box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   border-radius: .25rem;
+}
+
+#addPost>form.row>div {
+   padding: 20px;
+   height: auto;
+   overflow: hidden;
+   background-color: #fff;
+}
+
+#addPost .uploadPost {
+   text-align: center;
+   height: 100%;
+   border: 2px dashed #3498dbb8;
+}
+
+#addPost textarea {
+   resize: none;
+}
+
+.uploadPostDrag {
+   border: 2px dashed #3498db !important;
+   background-color: #f5f6fb !important;
+}

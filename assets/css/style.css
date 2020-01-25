@@ -1,0 +1,306 @@
+/**
+*
+* ---------------------------------------------------------------------------
+
+         Author         :       Mohamed Ait Si Mhand
+         Template       :       CMhand
+         Website  		:       aitsi.me
+         Email  			:       mohamedaitsimhand@gmail.com
+         Twitter  		:       Twitter.com/mohamadaitsi
+         Facebook  		:       Facebook.com/0x10000
+
+* ---------------------------------------------------------------------------
+
+/*=============================================
+CMhand
+November 1,2018
+===========================================
+Summary
+===========================================
+00 - Import css files
+01 - Notifications
+02 - Navbar
+03 - Header
+04 - Features
+05 - Review
+06 - Overview
+07 - Posts
+08 - Footer
+09 - Responsive Styling
+===============================================*/
+
+
+/*================================================================================================================================================
+    00 - Import css files
+================================================================================================================================================*/
+/*=== Bootstrap ===*/
+@import 'bootstrap.min.css';
+/*=== Fontawesome ===*/
+@import 'all.min.css';
+/*=== Post Tags Styling ===*/
+@import 'jquery-tagsinput.min.css';
+/*=== Variables ===*/
+@import 'variables.css';
+/*=== Fonts ===*/
+@import 'fonts.css';
+/*=== Reset Default Style ===*/
+@import 'reset.css';
+/*=== Commun Styles ===*/
+@import 'commun.css';
+
+/*================================================================================================================================================
+    01 - Notifications
+================================================================================================================================================*/
+#notification-icon {
+   cursor: pointer;
+   background: none;
+   border: none;
+}
+
+#notification-icon>.badge {
+   position: absolute;
+   left: 15px;
+   top: 5px;
+   color: white;
+   font-size: 12px;
+   display: none;
+}
+
+#notification-icon .active {
+   font-size: 20px;
+   color: var(--main-color)
+}
+
+#notification-dropdown {
+   width: 350px;
+   overflow-x: hidden;
+   overflow-y: auto;
+   padding: 10px;
+   max-height: 396px;
+}
+
+#notification-dropdown .notification {
+   display: block;
+   margin: 2px 0;
+   font-size: 13px;
+   padding: 5px;
+   cursor: pointer;
+   border-bottom: 1px solid var(--body-bg-color, #f5f6fb);
+}
+
+#notification-dropdown .notification:hover {
+   background-color: var(--body-bg-color, #f5f6fb);
+}
+
+#notification-dropdown .notification:hover a {
+   color: var(--main-color);
+}
+
+#notification-dropdown .notification .notification-profile {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   overflow: hidden;
+   border-radius: 50%;
+   vertical-align: middle;
+   padding: 0;
+}
+
+#notification-dropdown .notification .notification-profile img {
+   width: 50px;
+}
+
+#notification-dropdown .notification .notification-body {
+   display: inline-block;
+   vertical-align: middle;
+   padding: 0;
+}
+
+#notification-dropdown .notification .notification-body a p {
+   margin: 0;
+   padding-left: 10px;
+   font-size: 14px;
+   color: var(--dark-color);
+}
+
+#notification-dropdown .notification .notification-timer {
+   vertical-align: top;
+   padding: 0;
+}
+
+/*================================================================================================================================================
+    02 - Navbar
+================================================================================================================================================*/
+#navbar {
+   -webkit-transition: all 0.25s ease;
+   -o-transition: all 0.25s ease;
+   transition: all 0.25s ease;
+}
+
+#navbar .signin::before {
+   content: '|';
+   padding-right: 26px;
+}
+
+#navbar ul.navbar-nav {
+   display: -webkit-box;
+}
+
+#navbar #navbar-index>div>a {
+   color: var(--secondary-color, #2C3E50);
+}
+
+#navbar #navbar-index>div>a:last-child {
+   color: #ffffff;
+}
+
+#openProfile {
+   height: 100%;
+   border: none;
+   border-radius: 50%;
+   outline: none;
+   cursor: pointer;
+   background-color: #fff;
+}
+
+nav #openProfile>img {
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   object-fit: cover;
+}
+
+/*================================================================================================================================================
+    03 - Header
+================================================================================================================================================*/
+#header .slogan {
+   margin: 80px 0 0 80px;
+}
+
+#header .slogan .line {
+   width: 100px;
+   height: 5px;
+   border-radius: 50px;
+   background-color: var(--main-color, blue);
+   margin: 30px 0px 30px -40px;
+}
+
+/*================================================================================================================================================
+    04 - Features
+================================================================================================================================================*/
+#features .features {
+   width: 70%;
+   margin: 20px auto;
+}
+
+/*================================================================================================================================================
+    05 - Review
+================================================================================================================================================*/
+#review {
+   width: 100%;
+   height: 350px;
+   background-image: url('../img/backgrounds/bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+#review #carouselReview {
+   background-color: #212121e8;
+   width: 100%;
+   height: 100%;
+}
+
+#review #carouselReview .carousel-inner {
+   text-align: center;
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+#review #carouselReview .carousel-inner p {
+   color: #fff;
+   font-size: 20px;
+}
+
+#review #carouselReview .carousel-inner small {
+   color: var(--main-color);
+   display: block;
+}
+
+/*================================================================================================================================================
+    06 - Overview
+================================================================================================================================================*/
+#overview {
+   margin-top: 6rem;
+}
+
+.search {
+   background: none;
+   border: 1px solid #ccc;
+   padding: 3px 7px;
+   border-radius: 5px;
+   color: inherit;
+   font-size: 15px;
+}
+
+/*================================================================================================================================================
+    07 - Posts
+================================================================================================================================================*/
+#posts .profile-img {
+   width: 32px;
+   height: 32px;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+#posts .post-img {
+   background-color: #fff;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 180px;
+   overflow: hidden;
+}
+
+#posts article .card-body {
+   height: 99px;
+}
+
+/* post title */
+#posts article h5 {
+   height: 25px;
+}
+
+/*================================================================================================================================================
+    08 - Notification Page
+================================================================================================================================================*/
+#notifications {
+   background-color: white;
+   margin-top: 5rem;
+   max-width: 60rem;
+   padding: 2rem 3rem;
+   box-shadow: 0 0 15px -12px var(--dark-color);
+   border-radius: 5px;
+}
+
+/*================================================================================================================================================
+    09 - Footer
+================================================================================================================================================*/
+#footer {
+   background-color: var(--dark-color, #343a40);
+   width: 100%;
+}
+
+/*================================================================================================================================================
+    09 - Responsive Styling
+================================================================================================================================================*/
+@import 'responsive.css';

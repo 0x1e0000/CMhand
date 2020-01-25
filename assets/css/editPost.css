@@ -1,0 +1,23 @@
+#editPost {
+   margin-top: 90px;
+}
+
+#editPost>div.row {
+   background: white;
+   overflow: hidden;
+   border: 5px solid #fff;
+   -webkit-box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   border-radius: .25rem;
+   height: 500px;
+}
+
+#editPost>div.row>.edit-Post-Photo {
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#editPost textarea {
+   resize: none;
+}

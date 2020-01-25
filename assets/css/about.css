@@ -1,0 +1,42 @@
+body {
+   background-color: var(--secondary-color);
+   background-image: url(../img/backgrounds/bg-about.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#about .line {
+   margin: 30px auto 0;
+   width: 60px;
+   height: 5px;
+   border-radius: 50px;
+   background-color: #fff;
+}
+
+#about .bg-main {
+   background-color: var(--main-color);
+   max-width: 450px;
+   padding: 15px;
+   border-radius: 5px;
+   margin: 2rem auto 0;
+   -webkit-box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+#about .photo {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 5px solid #fff;
+   margin: 20px auto;
+   background-color: var(--dark-color);
+   background-image: url('../img/uploads/avatars/me.jpg');
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#about .paragraph {
+   padding: 10px 30px;
+}

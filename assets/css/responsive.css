@@ -1,0 +1,175 @@
+@media screen and (max-width: 1040px) {
+
+   #login-form,
+   #forgetPassword_form {
+      width: 100% !important;
+   }
+
+   #signup-form,
+   #contact-form {
+      padding: 2em !important;
+      padding-bottom: 0 !important;
+   }
+}
+
+@media screen and (max-width:991px) {
+   #signup-illu {
+      height: 100vh;
+   }
+}
+
+@media screen and (max-width:800px) {
+   #profile .profile {
+      width: 190px;
+      height: 190px;
+   }
+
+   #profile p {
+      width: 70% !important;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   #navbar .signin::before {
+      display: none
+   }
+
+   #features .features {
+      width: 80%;
+   }
+
+   #login-form {
+      width: 75% !important;
+      margin: 0 !important;
+   }
+
+   #signup-form,
+   #contact-form {
+      padding: 2em 4em !important;
+   }
+
+   #pills-password .col,
+   #pills-urls .col {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+
+   #pills-password .text-right,
+   #pills-urls .text-right {
+      text-align: center !important;
+   }
+}
+
+@media screen and (max-width:580px) {
+   #profile .profile {
+      width: 150px;
+      height: 150px;
+   }
+}
+
+@media screen and (max-width:575px) {
+
+   /*----- Index Navbar -----*/
+   .navbar-nav .dropdown-menu {
+      position: absolute;
+   }
+
+   #navbar #navbar-index {
+      background-color: var(--body-bg-color);
+   }
+
+   #navbar #navbarNavAltMarkup {
+      text-align: center;
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+   }
+
+   #navbar #navbarNavAltMarkup a {
+      margin: 0 !important;
+   }
+
+   #navbar #navbarNavAltMarkup a:hover {
+      background: #343a40;
+      color: #fff;
+   }
+
+   #header .slogan {
+      margin: 80px 0 0 50px;
+   }
+
+   #features {
+      margin-top: 50px !important;
+   }
+
+   #features .features {
+      width: 90%;
+   }
+
+   #signup-form,
+   #contact-form {
+      padding: 2em !important;
+   }
+
+   #login {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+   }
+
+   #login .head {
+      padding: 2rem 4rem !important;
+   }
+
+   #notification-dropdown {
+      position: absolute;
+   }
+
+   #profile p {
+      width: 90% !important;
+   }
+}
+
+@media screen and (max-width:520px) {
+   #about .bg-main {
+      width: 90%;
+      margin: 50px 20px;
+   }
+
+   #about .paragraph {
+      padding: 10px;
+   }
+
+   #pills-general .col {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+
+   #pills-general .text-right {
+      text-align: center !important;
+   }
+}
+
+@media screen and (max-width: 467px) {
+   #notification-dropdown {
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-59%);
+      -ms-transform: translateX(-59%);
+      transform: translateX(-59%);
+      border: none;
+   }
+
+   #signup-form {
+      padding: 2rem 4rem;
+   }
+
+   #signup-form .col {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
+}

@@ -1,0 +1,163 @@
+#profile {
+   margin-top: 92px;
+   width: 100%;
+   height: auto;
+}
+
+#profile .cover {
+   position: relative;
+   width: 100%;
+   max-width: 1240px;
+   height: 300px;
+   background: var(--dark-color);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0 auto;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   -webkit-box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+#profile .cover .img-cover {
+   position: relative;
+   height: 100%;
+}
+
+#profile .cover .img-cover label {
+   margin: 0;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   cursor: pointer;
+   padding: 20px 40px;
+}
+
+#profile .cover .img-cover label i {
+   font-size: 30px;
+   color: var(--body-bg-color, #ffffff);
+   opacity: 0.3;
+}
+
+#profile .cover:hover .img-cover label i {
+   opacity: 1;
+}
+
+#profile .profile {
+   position: relative;
+   background-color: #ffffff;
+   background-image: url('../img/profiles/profile.jpg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+   top: -100px;
+   border: 5px solid #ffffff;
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+#profile .profile .img-prof {
+   width: 100%;
+   height: 100%;
+}
+
+#profile .profile .img-prof label {
+   display: none;
+   cursor: pointer;
+   margin: 0;
+   height: 100%;
+   background-color: #2f364085;
+}
+
+#profile .profile .img-prof label i {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   font-size: 45px;
+   color: var(--body-bg-color, #ffffff);
+}
+
+#profile .profile .img-prof:hover label {
+   display: block;
+}
+
+#profile h4 {
+   margin-top: -80px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 35px;
+   color: var(--dark-color);
+}
+
+#profile h4 span {
+   color: var(--secondary-color);
+   font-weight: lighter
+}
+
+#profile h4 i {
+   font-size: 17px;
+   margin-left: 5px;
+   color: #6c757d;
+   vertical-align: middle;
+}
+
+#profile small {
+   color: var(--main-color);
+   display: block;
+   text-align: center;
+   font-weight: lighter;
+   margin-top: 15px;
+}
+
+#profile p {
+   margin: 10px auto;
+   text-align: center;
+   width: 50%;
+}
+
+#profile .social-media {
+   text-align: center;
+   margin: 10px 0;
+}
+
+#profile .social-media a {
+   color: var(--main-color)
+}
+
+#new-post>div {
+   height: 200px;
+   margin: 0 auto;
+}
+
+#new-post>div>div {
+   text-align: center;
+   height: 100%;
+   border: 2px dashed var(--main-color, #3498db);
+   background: #fff;
+   border-radius: .25rem !important;
+   ;
+   -webkit-box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+   ;
+   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+#new-post>div>div>a {
+   display: block;
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   color: var(--main-color);
+}
+
+.storPosts {
+   cursor: pointer;
+}
